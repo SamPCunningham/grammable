@@ -71,3 +71,5 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
 gem 'popper_js'
+
+gem 'simple_form'
