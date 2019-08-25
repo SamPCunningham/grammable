@@ -158,7 +158,7 @@ RSpec.describe GramsController, type: :controller do
           picture: fixture_file_upload("/picture.png", 'image/png')
           }
         }
-        
+
       expect(response).to redirect_to root_path
 
       gram = Gram.last
